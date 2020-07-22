@@ -81,5 +81,5 @@ model.fit(
         validation_data=test_set,
         validation_steps=800)
 
-m=model.save('my1.h5')
+m=model.save('CNN_MODEL.h5')
 
